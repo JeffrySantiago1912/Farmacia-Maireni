@@ -86,9 +86,7 @@ export function Footer() {
                 AbbaTech
               </span>
             </p>
-            <p className="text-center sm:text-right">
-              Medicamentos · República Dominicana
-            </p>
+
           </div>
         </div>
       </div>
