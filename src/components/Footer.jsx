@@ -1,4 +1,4 @@
-import { MapPin, Share2, Sparkles } from "lucide-react";
+import { MapPin, Sparkles } from "lucide-react";
 import { BrandLogoMark } from "./BrandLogoMark";
 import { ADDRESS } from "../constants";
 
@@ -63,17 +63,11 @@ export function Footer() {
               />
               <span>{ADDRESS}</span>
             </a>
-            <p className="flex items-center justify-center gap-2 text-xs text-slate-500 dark:text-slate-500 sm:justify-end">
-              <Share2
-                className="h-3.5 w-3.5 text-brand-blue dark:text-sky-400"
-                aria-hidden
-              />
-              Facebook · próximamente
-            </p>
+
           </div>
         </div>
 
-        <div className="mt-10 border-t border-slate-200/90 pt-6 dark:border-white/10">
+        <div className="mt-10 border-t border-slate-200/90 pt-6 pb-20 sm:pb-6 dark:border-white/10">
           <div className="flex flex-col items-center gap-3 text-xs text-slate-600 sm:grid sm:grid-cols-3 sm:items-center sm:gap-4 sm:text-sm dark:text-slate-400">
             <p className="text-center sm:text-left">
               © {new Date().getFullYear()} Farmacia Maireni, S.R.L.

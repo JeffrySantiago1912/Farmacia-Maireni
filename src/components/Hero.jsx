@@ -48,7 +48,7 @@ const fadeUp = {
   },
 };
 
-const AUTO_INTERVAL_MS = 2000;
+const AUTO_INTERVAL_MS = 3000;
 
 export function Hero() {
   const [activeIndex, setActiveIndex] = useState(0);

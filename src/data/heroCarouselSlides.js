@@ -1,7 +1,7 @@
 /** Imágenes del carrusel del hero — misma lista en orden para About (última = última del carrusel). */
 export const HERO_CAROUSEL_SLIDES = [
   {
-    src: "https://www.gaceta.unam.mx/wp-content/uploads/2020/08/farvdes.jpg",
+    src: "https://plus.unsplash.com/premium_photo-1661776604037-12e9654d5ab6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
     objectPosition: "object-center",
   },
   {
@@ -9,7 +9,7 @@ export const HERO_CAROUSEL_SLIDES = [
     objectPosition: "object-[center_30%]",
   },
   {
-    src: "https://plus.unsplash.com/premium_photo-1661776604037-12e9654d5ab6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+    src: "https://www.gaceta.unam.mx/wp-content/uploads/2020/08/farvdes.jpg",
     objectPosition: "object-center",
   },
 ];
