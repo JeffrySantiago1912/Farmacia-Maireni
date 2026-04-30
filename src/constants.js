@@ -1,5 +1,5 @@
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  '¡Hola! 👋 Quisiera obtener información sobre un medicamento o producto. ¿Me pueden ayudar?'
+  '¡Hola! Quisiera obtener información sobre un medicamento o producto. ¿Me pueden ayudar?'
 );
 export const WHATSAPP_URL = `https://wa.me/18095902333?text=${WHATSAPP_MESSAGE}`;
 export const PHONE_DISPLAY = '+1 809 590 2333'
