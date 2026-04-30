@@ -28,7 +28,7 @@ export function WhatsAppFloat() {
           WhatsApp
         </span>
         <span className="mt-0.5 block text-[11px] font-bold leading-snug sm:text-xs">
-          Habla con nosotros
+          Pedir por WhatsApp
         </span>
       </span>
     </motion.a>

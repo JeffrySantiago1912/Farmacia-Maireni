@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { CreditCard, Handshake, Home, Store, Wallet } from "lucide-react";
+import { CreditCard, Handshake, Home, MessageCircle, Store, Wallet } from "lucide-react";
+import { WHATSAPP_URL } from "../constants";
 import { sectionRevealProps } from "../lib/scrollReveal";
 import { Card } from "./Card";
 
@@ -90,6 +91,19 @@ export function Services() {
             </motion.div>
           ))}
         </motion.div>
+
+        <div className="mt-10 flex justify-center">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 rounded-2xl bg-brand-red px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-red/35 transition hover:scale-[1.03] hover:bg-brand-red-hover hover:shadow-xl hover:shadow-brand-red/40 active:scale-[0.98]"
+            aria-label="Pedir por WhatsApp"
+          >
+            <MessageCircle className="h-5 w-5 shrink-0" aria-hidden />
+            Pedir por WhatsApp
+          </a>
+        </div>
       </div>
     </motion.section>
   );

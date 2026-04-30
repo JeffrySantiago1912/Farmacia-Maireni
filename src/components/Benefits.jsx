@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { MapPinned, PackageCheck, Truck, Zap } from "lucide-react";
+import { MapPinned, MessageCircle, PackageCheck, Truck, Zap } from "lucide-react";
+import { WHATSAPP_URL } from "../constants";
 import { sectionRevealProps } from "../lib/scrollReveal";
 
 const benefits = [
@@ -71,6 +72,22 @@ export function Benefits() {
               </p>
             </motion.article>
           ))}
+        </div>
+
+        <div className="mt-12 flex flex-col items-center gap-3 text-center">
+          <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
+            ¿Listo para recibir la mejor atención farmacéutica?
+          </p>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2.5 rounded-2xl bg-brand-red px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-red/35 transition hover:scale-[1.03] hover:bg-brand-red-hover hover:shadow-xl hover:shadow-brand-red/40 active:scale-[0.98]"
+            aria-label="Consultar medicamento ahora por WhatsApp"
+          >
+            <MessageCircle className="h-5 w-5 shrink-0" aria-hidden />
+            Consultar medicamento ahora
+          </a>
         </div>
       </div>
     </motion.section>

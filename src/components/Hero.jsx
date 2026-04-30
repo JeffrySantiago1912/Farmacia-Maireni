@@ -175,10 +175,10 @@ export function Hero() {
                 rel="noopener noreferrer"
                 variant="primary"
                 className="w-full rounded-2xl px-8 py-3.5 text-base shadow-xl shadow-brand-red/45 transition-[transform,box-shadow] hover:bg-brand-red-hover hover:shadow-2xl hover:shadow-brand-red/50 sm:min-w-[240px]"
-                aria-label="Escribir por WhatsApp"
+                aria-label="Consultar medicamento ahora por WhatsApp"
               >
                 <MessageCircle className="h-5 w-5 shrink-0" aria-hidden />
-                Escribir por WhatsApp
+                Consultar medicamento ahora
               </Button>
             </motion.div>
             <motion.div
