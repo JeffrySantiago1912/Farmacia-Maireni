@@ -34,6 +34,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
+        env:
+          VITE_BASE: /Farmacia-Maireni/
         run: pnpm build
 
       - name: Upload artifact

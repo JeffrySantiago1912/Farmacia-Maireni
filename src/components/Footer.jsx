@@ -100,7 +100,7 @@ export function Footer() {
             <p>
               Desarrollado por{" "}
               <a 
-                href="https://jeffrysantiago1912.github.io/AbbaTech/" 
+                href="https://abbatechcompany.netlify.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="font-semibold text-white hover:underline transition-colors"
